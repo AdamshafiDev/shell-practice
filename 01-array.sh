@@ -4,6 +4,7 @@ firstnumber=100
 secondnumber=200
 
 TIMESTAMP=$(date)
+echo "script executed time::$TIMESTAMP"
 sum=$(($firstnumber+$secondnumber))
 
 echo "sum of number: $sum"
