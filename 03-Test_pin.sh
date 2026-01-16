@@ -1,12 +1,7 @@
 #!/bin/bash
 
-#echo "enter the accountnumber"
+echo "enter pin number"
 
-#read accountnumber
+read PIN
 
-#each "$accountnumber"
-
-each "enter pin"
-
-read pin
-each "$pin"
+echo "your pin number::$PIN"
