@@ -1,10 +1,10 @@
 #!/bin/bash
 
-echo "enter the accountnumber"
+#echo "enter the accountnumber"
 
-read accountnumber
+#read accountnumber
 
-each "$accountnumber"
+#each "$accountnumber"
 
 each "enter pin"
 
