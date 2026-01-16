@@ -1,6 +1,6 @@
 #!/bin/bash
 
-movies("Bahubali" "HIT3" "Hero" "raju")
+movies=("Bahubali" "HIT3" "Hero" "raju")
 
 echo "enater second movie $(movies[0])"
 
