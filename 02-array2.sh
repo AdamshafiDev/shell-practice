@@ -16,4 +16,8 @@ echo "enter first number::$number3"
 
  echo "the scripting exected at::$TIMESTAMP"
 
- 
+ echo "enter new password"
+
+ read PIN
+
+ echo "the pin is ::$PIN"
