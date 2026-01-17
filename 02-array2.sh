@@ -21,3 +21,10 @@ echo "enter first number::$number3"
  read -s PIN
 
  echo "the pin is ::$PIN"
+
+ movies=("bhaubali" "raja" "rama" "ping" "singapoor")
+
+ echo "enter first movie::${movies[0]}"
+ echo "enter secondt movie::${movies[1]}"
+ echo "enter fourth movie::${movies[3]}"
+ echo "enter all movies::${movies[@]}"
