@@ -18,6 +18,6 @@ echo "enter first number::$number3"
 
  echo "enter new password"
 
- read PIN
+ read -s PIN
 
  echo "the pin is ::$PIN"
