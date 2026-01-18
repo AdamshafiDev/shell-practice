@@ -29,7 +29,14 @@ echo "enter first number::$number3"
  echo "enter fourth movie::${movies[3]}"
  echo "enter all movies::${movies[*]}"
 
- echo "enter script name::$$"
-  echo "enter script name::$USER"
+ echo "enter pid number::$$"
+ echo "enter user name::$USER"
+ echo "enter exit name::$?"
+ echo "enter number name::$#"
+ echo "enter user name::$PWD"
+ echo "enter  name::$!"
+ echo "enter user name::$1"
+ echo "enter user name::$0"
+
 
 
