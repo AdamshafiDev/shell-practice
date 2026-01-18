@@ -30,7 +30,7 @@ echo "enter first number::$number3"
  echo "enter all movies::${movies[*]}"
 
  echo "enter pid number::$$"
- echo "enter user name::$USER"
+ echo "enter user name::$USERR"
  echo "enter exit name::$?"
  echo "enter number name::$#"
  echo "enter user name::$PWD"
