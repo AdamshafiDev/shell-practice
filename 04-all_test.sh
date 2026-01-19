@@ -22,3 +22,11 @@ echo "enter first movie::${movies[0]}"
 
 echo "enter all movie::${movies[*]}"
 
+echo "the pin name::$$"
+echo "the script name::$0"
+echo "the number line::$#"
+echo "the number line::$!"
+echo "the number line::$?"
+echo "the working directory line::$PWD"
+echo "the user line::$USER"
+
