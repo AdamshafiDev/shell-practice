@@ -2,10 +2,12 @@
 num=$1
 
 if [ $num -gt 100 ]
- then 
+
+  then
+
   echo "the number is greater then 100"
 
-  elseif [$num -ge 100 ]
+  elif [ $num -ge 100 ]
 
   echo "the number is equel to 100"
   
