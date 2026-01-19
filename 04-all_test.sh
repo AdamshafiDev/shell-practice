@@ -20,3 +20,5 @@ echo "$PIN"
 
 echo "enter first movie::${movies[0]}"
 
+echo "enter all movie::${movies[*]}"
+
