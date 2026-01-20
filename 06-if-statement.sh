@@ -33,7 +33,7 @@ VALIDATE()
        fi
               
               
-              dnf list installed mysql-sever
+              dnf list installed mysql-server
               if [ $? -ne 0 ]
                then
                    echo "my MYSQL is not install ....going to install"
