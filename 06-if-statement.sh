@@ -15,7 +15,7 @@ fi
       if [ $? -ne 0 ]
        then
          echo "my sql is not install ....going to install"
-          dnf install mysql-server -y 
+          dnf install nginx-y 
           if [ $? -eq 0 ]
            then 
               echo "my sql is installing......SUCCESS"
