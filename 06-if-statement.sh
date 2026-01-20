@@ -22,9 +22,10 @@ fi
             else
               echo "My SQL is installing ......FAILURE"
               exit 1
+              fi
          else
           echo "my sql is already installed.......Nothing to do"
-          fi
+          
       fi 
 # dnf install mysql-server -y 
   
