@@ -19,42 +19,41 @@ VALIDATE()
             else
               echo "My installing $2 is  ......FAILURE"
               exit 1
-              fi
+    fi
 }
   dnf list installed nginx
 
       if [ $? -ne 0 ]
-       then
+        then
          echo "my nginx is not install ....going to install"
           dnf install nginx -y 
           VALIDATE $? "nginx"
           else
           echo "already nginx installed ..Nothing to do"
-         fi
+       fi
               
               
-              dnf list installed mysql-sever
-
-               if [ $? -ne 0 ]
-                then
-                 echo "my Mysql-sever is not install ....going to install"
-                 dnf install mysql-sever -y 
-                 VALIDATE $? "mysql-server"
+            #   dnf list installed mysql-sever
+            #   if [ $? -ne 0 ]
+            #     then
+            #      echo "my Mysql-sever is not install ....going to install"
+            #      dnf install mysql-sever -y 
+            #      VALIDATE $? "mysql-server"
                  
-               else
-                     echo "mysql-server alrady installed ...Nothing to do"
-               fi
+            #       else
+            #          echo "mysql-server alrady installed ...Nothing to do"
+            #    fi
             
-              dnf list installed python3
-                if [ $? -ne 0 ]
-                then
-                   echo "my nginx is not install ....going to install"
-                   dnf install python3 -y 
-                   VALIDATE $? "python3"
-                   else
-                  echo "my python3 is already installed.......Nothing to do"
+            #   dnf list installed python3
+            #     if [ $? -ne 0 ]
+            #     then
+            #        echo "my nginx is not install ....going to install"
+            #        dnf install python3 -y 
+            #        VALIDATE $? "python3"
+            #        else
+            #       echo "my python3 is already installed.......Nothing to do"
           
-               fi 
+            #    fi 
 # dnf install mysql-server -y 
   
 #   if [ $? -eq 0 ]
