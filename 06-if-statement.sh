@@ -39,7 +39,7 @@ VALIDATE()
                    echo "my MYSQL is not install ....going to install"
                    dnf install mysql-server -y
                    VALIDATE $? "mysql-server"
-                   else
+                  else
                      echo "already mysql-sever installed ..Nothing to do"
                fi
             
