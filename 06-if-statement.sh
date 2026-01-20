@@ -35,13 +35,12 @@ VALIDATE()
               
               dnf list installed mysql-sever
               if [ $? -ne 0 ]
-                then
-                 echo "my Mysql-sever is not install ....going to install"
-                 dnf install mysql-sever -y 
-                 VALIDATE $? "mysql-server"
-                 
-                  else
-                     echo "mysql-server alrady installed ...Nothing to do"
+               then
+                   echo "my MYSQL is not install ....going to install"
+                   dnf install mysql-server -y
+                   VALIDATE $? "mysql-server"
+                   else
+                     echo "already mysql-sever installed ..Nothing to do"
                fi
             
             #   dnf list installed python3
