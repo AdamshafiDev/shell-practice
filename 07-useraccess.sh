@@ -43,6 +43,17 @@ then
      echo "mysql is already installed ....Nothoing to do"
     fi
 
+     dnf list installed python3
+   
+   if [ $? -ne 0 ]
+   then
+    echo "python3 is not install....going to install"
+     dnf install python3 -y
+     VALIDATE $? "python3"
+    else 
+     echo "python3 is already installed ....Nothoing to do"
+    fi
+
 
 
 
