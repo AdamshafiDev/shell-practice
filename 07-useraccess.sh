@@ -1,13 +1,12 @@
 #!/bin/bash
 
-userid=$(id -u)
+USERID=$(id - u)
 
-if [ userid -ne 0 ]
- then
-  echo "Error:please run the script  with root access"
-   exit 1
-else
-    echo "the script running  with root acccess"
- fi
-    TIMESTAMP=$(date)
-     echo "the script run date:$TIMESTAMP"
+if [ $USERID -ne 0 ]
+then
+  echo "Error: please run with root access"
+  exit 1
+   echo " the scripting with root access"
+   fi
+ TIMESTAMP=($date)
+   echo "the scripting running date :$TIMESTAMP"
