@@ -8,6 +8,6 @@ then
    exit 1
    else
     echo "the script running  with root acccess"
-
+ fi
     TIMESTAMP=$(date)
      echo "the script run date :$TIMESTAMP"
