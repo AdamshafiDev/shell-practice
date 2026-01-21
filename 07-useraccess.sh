@@ -8,5 +8,5 @@ then
   exit 1
    echo "the scripting with root access"
    fi
- TIMESTAMP=($date)
+ TIMESTAMP=$(date)
    echo "the scripting running date :$TIMESTAMP"
