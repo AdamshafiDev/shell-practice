@@ -49,7 +49,7 @@ fi
 
    if [ $? -ne 0 ]
     then 
-    echo -e "$G python3 is not install ...$N going to installl"
+    echo  "python3 is not install ... going to installl"
     dnf install python3 -y
     VALIDATE $? "python3"
     else
