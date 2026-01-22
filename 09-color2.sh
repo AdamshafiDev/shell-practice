@@ -33,7 +33,7 @@ if [ $USERID -ne 0 ]
     dnf install nginx -y
     VALIDATE $? "nginx"
     else
-    echo -e "$G nginx is already installed .....nothing to do"
+    echo -e "$G nginx is already installed .....$N nothing to do"
 fi
  dnf list installed mysql
 
@@ -43,13 +43,13 @@ fi
     dnf install mysql -y
     VALIDATE $? "mysql"
     else
-    echo -e  "$G mysql is already installed .....nothing to do"
+    echo -e  "$G mysql is already installed .....$N nothing to do"
 fi
  dnf list installed python3
 
    if [ $? -ne 0 ]
     then 
-    echo " python3 is not install ...going to installl"
+    echo -e "$G python3 is not install ...$N going to installl"
     dnf install python3 -y
     VALIDATE $? "python3"
     else
