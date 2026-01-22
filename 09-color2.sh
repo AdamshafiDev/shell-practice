@@ -17,6 +17,7 @@ if [ $USERID -ne 0 ]
           echo "Installing..$2....Succcess"
           else
           echo "instealling ...$2...failure"
+          exit 1
          fi
  }
 
