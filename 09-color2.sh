@@ -53,7 +53,7 @@ fi
     dnf install python3 -y
     VALIDATE $? "python3"
     else
-    echo -e"$G python3 is already installed ....$N nothing to do"
+    echo -e "$G python3 is already installed ....$N nothing to do"
 fi
 
     
