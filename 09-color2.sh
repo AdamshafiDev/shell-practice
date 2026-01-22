@@ -26,7 +26,7 @@ if [ $USERID -ne 0 ]
    if [ $? -ne 0 ]
     then 
     echo " nginix is not install ...going to installl"
-    dnf installl nginx -y
+    dnf install nginx -y
     VALIDATE $? "nginx"
     else
     echo "nginx is already installed .....nothing to do"
