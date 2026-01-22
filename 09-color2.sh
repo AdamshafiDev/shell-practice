@@ -31,6 +31,26 @@ if [ $USERID -ne 0 ]
     else
     echo "nginx is already installed .....nothing to do"
 fi
+ dnf list installed mysql
+
+   if [ $? -ne 0 ]
+    then 
+    echo " mysql is not install ...going to installl"
+    dnf install mysql -y
+    VALIDATE $? "mysql"
+    else
+    echo "mysql is already installed .....nothing to do"
+fi
+ dnf list installed python3
+
+   if [ $? -ne 0 ]
+    then 
+    echo " python3 is not install ...going to installl"
+    dnf install python3 -y
+    VALIDATE $? "python3"
+    else
+    echo "python3 is already installed .....nothing to do"
+fi
 
     
      
